@@ -92,5 +92,6 @@ ro.sf.lcd_density=440
 persist.vendor.sys.pay.ifaa=1
 
 # IORap
+iorapd.readahead.enable=true
 ro.iorapd.enable=true
 
