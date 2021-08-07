@@ -83,3 +83,9 @@
 
 # Fast Charge
 /sys/kernel/fast_charge/force_fast_charge                                                 u:object_r:sysfs_fastcharge:s0
+
+# Battery secret
+/vendor/bin/batterysecret                                            u:object_r:batterysecret_exec:s0
+
+# Persist subsystem
+/mnt/vendor/persist/subsys(/.*)?                                     u:object_r:persist_subsys_file:s0
